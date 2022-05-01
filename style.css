@@ -1,4 +1,19 @@
 main{
 font-family: 'Open Sans', sans-serif;
-width: 1060px;
+width: 800px;
+margin: auto;
+}
+h1, h2, h3{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-align: center;
 }
