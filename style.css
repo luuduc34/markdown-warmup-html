@@ -3,8 +3,10 @@ font-family: 'Open Sans', sans-serif;
 width: 800px;
 margin: auto;
 }
+
 h1, h2, h3{
     text-align: center;
+    color: crimson;
 }
 section p{
     text-align: center;
@@ -16,4 +18,24 @@ table{
 
 footer{
     text-align: center;
+}
+
+/* Zoom Out #1 */
+img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img:hover {
+	-webkit-transform: scale(2);
+	transform: scale(2);
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: chocolate;
 }
